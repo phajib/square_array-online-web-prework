@@ -1,5 +1,6 @@
 def square_array(array)
-  square.each do |sqCount|
-    sqCount = sqCount ** 2
-    return sqCount
+  arr = []
+  array.each do |sqCount|
+    arr << sqCount ** 2
+    arr
 end
